@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+body{
+  background-color: #F1E9DC !important;
+}
+/* Carousel */
+.carousel-caption h4,
+.carousel-caption p{
+  display: inline;
+  color: #ffffff;
+  filter: drop-shadow(2px 2px 5px #000000);
+}
+
+/* Carousel-img-size */
+.carousel-img{
+    height: 35em;
+    object-fit:cover;
+    filter: grayscale(0.4);
+  }
+  /* carousel */
+
+  /*About us start*/
+  .bg-dark-green{
+    background: rgb(23,42,58);
+    background: linear-gradient(180deg,rgb(37, 78, 111) 100%,rgba(23,42,58,1) 0% );
+    color: #F1E9DC;
+  }
+  
+  .crew-img{
+    width: 30em;
+    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
+  }
+
+  /*About us end*/
+  
+  /* Daha Fazla butonu start */
+
+
+    /* Daha Fazla butonu End */
+    
+
+    /* underline */
+    .underline{
+      display: inline;
+      position: relative;
+      padding-bottom: 0.25rem;
+      text-align: center;
+
+     }
+    .underline::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      border-radius: 12px;
+      transform: scale(1,1);
+      background-color: #911914;
+      transition: all 0.4s ease-in-out;
+      bottom: 0;
+      left: 0;
+    }
+
+    /* .underline:hover::before{
+      transform: scale(1,1);
+    } */
+    /* .underline::before{
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 4px;
+      border-radius: 12px;
+      background-color: #911914;
+      transition: all 0.4s ease-in-out;
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+    }
+     */
+    /* .underline:hover::before{
+      width: 100%;
+    } */
+    
+  /*underline  */
+
+    /* Card Slider start*/
+
+  
+
+
+.profile {
+  float: left;
+  max-width: 300px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;  
+  }
+  
+  h2,p{
+    color: #000000
+  }
+  
+  .image {
+    width: 75px;
+    height: 75px;
+    background: red;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    right: -100px;
+    top: -25px;
+    transform-origin: bottom left;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+
+    background-image: url("https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  &:hover {
+    .image {
+      transform: scale(1.5);
+      border-radius: 10px;
+    }
+  }
+
+  /*Card Slider end  */
+    
