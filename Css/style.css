@@ -2,6 +2,7 @@
 :root {
   --linkedin: #007bb5;
   --darkred: #911914;
+  --grey:#666465;
   --platinum: #e5e5e5;
   --dark-green: #172A3A;
   --white: #fff;
@@ -40,7 +41,7 @@ body {
 
 /* carousel */
 
-/*About us start*/
+/*Homepage About us start*/
 .about-us {
   background: rgb(23, 42, 58);
   background: linear-gradient(180deg, rgb(37, 78, 111) 100%, rgba(23, 42, 58, 1) 0%);
@@ -49,10 +50,9 @@ body {
 
 .crew-img {
   width: 30em;
-  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
 }
 
-/*About us end*/
+/*Homepage About us end*/
 
 /* Daha Fazla butonu start */
 a.bn47 {
@@ -101,7 +101,7 @@ a.bn47 {
 
 
 /* underline */
-.underline {
+.static-underline {
   display: inline;
   position: relative;
   padding-bottom: 0.25rem;
@@ -109,7 +109,7 @@ a.bn47 {
 
 }
 
-.underline::before {
+.static-underline::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -203,8 +203,6 @@ a.bn47 {
   transition: background 0.2s;
 }
 
-
-
 .cards::-webkit-scrollbar {
   height: 12px;
 }
@@ -252,3 +250,37 @@ a.bn47 {
   }
 }
 /*Card Slider end  */
+
+
+/* About us */
+
+.bg-darkgreen{
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+
+.underline {
+  display: inline;
+  position: relative;
+  padding-bottom: 0.25rem;
+  text-align: center;
+
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 12px;
+  transform: scale(0, 1);
+  background-color: var(--darkred);
+  transition: all 0.4s ease-in-out;
+  bottom: 0;
+  left: 0;
+}
+
+.underline:hover::before{
+  transform: scale(1, 1);
+
+}
