@@ -1,20 +1,605 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>KTUN Endüstri Mühendisliği Web Sitesi</title>
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <div class="team-member">
-        <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-        <h2>İsim Soyisim</h2>
-        <p>Rolü / Görevi</p>
-       <a href="https://www.linkedin.com/in/isim-syisim" target="_blank" class="linkedin-btn">In </a>
-        
-    </div\>
-</body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Css/crew-style.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Ekibimiz!</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-xl fixed-top glass">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa
+            </a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle " href="about-us.html" id="navbarDropdownMenuAbout_us" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Hakkımızda
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuAbout_us">
+              <li><a class="dropdown-item" href="about-us.html">Hakkımızda
+              <li><a class="dropdown-item" href="crew.html">Ekibimiz</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Etkinliklerimiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">İletişim</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuBlog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Bülten
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuBlok">
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Hakkımızda Haberler</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 p-4 bg-light ">
+          <nav id="navbar-example3" class="navbar  bg-light flex-column align-items-stretch p-3 sticky-top  mt-5  left-bar">
+            <a class="navbar-brand " href="#">Ekibimiz</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link " href="#item-1">Yönetim Ekibi</a>
+              <a class="nav-link " href="#item-2">İletişim Ekibi</a>
+              <a class="nav-link " href="#item-4">Sponsorluk Ekibi</a>
+              <a class="nav-link " href="#item-5">Dış İlişkiler Ve Temsil Heyeti</a>
+              <a class="nav-link " href="#item-6">Süreç Yönetimi Ekibi</a>
+              <a class="nav-link " href="#item-7">Sosyal Medya Ve Tanıtım Ekibi</a>
+              <a class="nav-link " href="#item-8">IT Ekibi</a>
+              <a class="nav-link " href="#item-9">Teknik Etkinlikler Ve Gezi Ekibi</a>
+            </nav>
+          </nav>
+          
+        </div>
+        <div class="col-lg-9 p-4">
+          <div class="mt-5" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+            <!-- Yönetim Ekibi Başlangıç -->
+            <h2 id="item-1">Yönetim Ekibi</h2>
+            <div class="row d-flex justify-content-center  my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="https://media.licdn.com/dms/image/D4D03AQH4dqBRhCzYrw/profile-displayphoto-shrink_400_400/0/1703624805565?e=1716422400&v=beta&t=pAeTGhrdeWSBcNC-0RRsEqFesdD3T3Y-_LTLOzZlGMs" alt="Başkan" class="member-photo">
+                  <h2>Hasan Şimşek</h2>
+                  <p>Yönetim Kurulu Başkanı</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="https://media.licdn.com/dms/image/D4D03AQEgQwC2ByEH2g/profile-displayphoto-shrink_400_400/0/1704373321871?e=1716422400&v=beta&t=rWREx5aIvNhpoWQdSiExAsZi15seDKqPuKcyqS6TcGA" alt="Ekip Üyesi" class="member-photo">
+                  <h2>Betül Okur</h2>
+                  <p>Yönetim Kurulu Başkan Yrd.</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <!-- Yönetim Ekibi Bitiş -->
+            <!-- İletişim Ekibi Başlangıç -->
+            <h2 id="item-2">İletişim Ekibi</h2>
+            <div class="row d-flex justify-content-center  my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <!-- İletişim Ekibi Bitiş -->
+            <!-- Sponsorluk Ekibi Başlangıç -->
+            <h2 id="item-2">Sponsorluk Ekibi</h2>
+            <div class="row d-flex justify-content-center  my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <!-- Sponsorluk Ekibi Bitiş -->
+            <!-- Dış İlişkiler Ve Temsil Heyeti Ekibi Başlangıç -->
+            <h2 id="item-3">Dış İlişkiler Ve Temsil Heyeti Ekibi</h2>
+            <div class="row d-flex justify-content-center  my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <!-- Dış İlişkiler Ve Temsil Heyeti Ekibi Bitiş -->
+            <!-- Süreç Yönetimi Ekibi Başlangıç -->
+            <h2 id="item-4">Süreç Yönetimi Ekibi</h2>
+            <div class="row d-flex justify-content-center  my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <!-- Süreç Yönetimi Ekibi Bitiş -->
+          </div>
+        </div>
+      </div>
+    
+   
+   
+
+   
+      <script src="https://kit.fontawesome.com/24a12ef7d0.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+  </body>
 </html>
-

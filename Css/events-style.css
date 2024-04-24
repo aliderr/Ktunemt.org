@@ -40,9 +40,6 @@ body{
 h1{
   text-align: center;
   color: black;
-  position: sticky;
-  z-index: 1000;
-  top: 0;
   background-color: #F1E9DC;
 } 
 h2.underline{
