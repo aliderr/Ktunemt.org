@@ -13,8 +13,7 @@ body {
     border: 1px solid gray;
     border-radius: 10px;
     margin: 10px;
-    background-color: #d1f3a2;
-    background: linear-gradient(to right,#80e7ab,#6db7e9);/* Geçişli Arka Plan Rengi*/
+    background-color: var(--platin);
     color: #0f0c0c;
     transition: background-color 0.3s ease-in-out;/*Renk Geçişi Ekleniyor*/
 }
