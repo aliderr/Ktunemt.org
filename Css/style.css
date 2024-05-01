@@ -21,7 +21,7 @@ body {
   background-color: var(--bej) !important;
   font: 16px / 24px "Rubik", sans-serif;
   color: var(--dark-green);
-  background: var(--platinum);
+  background: var(--bej);
   margin: 50px 0;
 }
 /* Navbar */
@@ -30,6 +30,12 @@ body {
   -webkit-backdrop-filter: blur(18px);
   backdrop-filter: blur(18px);
   box-shadow: 0px 20px 18px rgba(0, 0, 0, 0.30) ;
+  max-height: 6rem;
+}
+
+
+.brand{
+ height: 6rem;
 }
 
 /* Carousel */
@@ -228,6 +234,9 @@ a.bn47 {
   background: var(--thumb);
 }
 
+.fa-linkedin{
+  color: #ffffff;
+}
 @media (min-width: 500px) {
   .card {
     flex-basis: calc(50% - 10px);

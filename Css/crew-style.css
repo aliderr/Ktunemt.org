@@ -4,10 +4,8 @@
     border: 1px solid gray;
     border-radius: 10px;
     margin: 10px;
-    background-color: #d1f3a2;
-    background: linear-gradient(to right,#80e7ab,#6db7e9);/* Geçişli Arka Plan Rengi*/
+    background-color: var(--platinum);
     color: #0f0c0c;
-    transition: background-color 0.3s ease-in-out;/*Renk Geçişi Ekleniyor*/
 }
 
 
@@ -16,7 +14,8 @@
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, filter 0.3s ease-in-out;
+    filter: grayscale(100%)
     
 }
 
@@ -24,14 +23,14 @@
 
 .member-photo:hover {
     transform: scale(1.2);/*Hover Durumunda Fotoğrafı Büyüt*/
-    filter: grayscale(100%);
+    filter: grayscale(0%);
 
 }
 
-.team-member:hover {
-    background: linear-gradient(to right,#3498db,#2ecc71);/*Hover Durumunda Renk Geçişi*/
+/* .team-member:hover {
+    
 
-}
+} */
 
 .team-member h2 {
     margin: 10px 0;
@@ -43,23 +42,6 @@
 }
 
 
-.linkedin-btn {
-    display: inline-block;
-    padding: 10px 100px;
-    background-color: #0077B5; /* LinkedIn mavisi */
-    color: #fff;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.linkedin-button:hover {
-    background-color: #005f91; /* Hover rengi */
-}
-
-
-.linkedin-btn:hover {
-    background-color: #005983; /* Hover rengi */
-}
 
 
 
