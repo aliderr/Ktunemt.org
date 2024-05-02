@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-xl fixed-top glass">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top glass">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,22 +56,40 @@
   </nav>
 
     <div class="container">
-      <div class="row">
-        <div class="col-lg-3 p-4 bg-light sticky-top ">
-          
-          
+      <!-- Aside -->
+      <div id="nav-bar">
+        <input id="nav-toggle" type="checkbox"/>
+        <div id="nav-header"><a id="nav-title" href="" target="_blank"><i class="fab "></i>Ekibimiz</a>
+          <label for="nav-toggle"><span id="nav-toggle-burger"></span></label>
+          <hr/>
         </div>
-        <div  class="col-lg-9 p-5 ">
+        <div id="nav-content">
+          <div class="nav-button" id="item-1"><i class="fas fa-palette"></i><span>Yönetim Ekibi</span></div>
+          <hr/>
+          <div class="nav-button"><i class="fas fa-images"></i><span>İletişim Ekibi</span></div>
+          <div class="nav-button"><i class="fas fa-thumbtack"></i><span>Sponsorluk Ekibi</span></div>
+          <div class="nav-button"><i class="fas fa-heart"></i><span>Süreç Yönetimi Ekibi</span></div>
+          <div class="nav-button"><i class="fas fa-chart-line"></i><span>Sosyal Medya ve Tanıtım Ekibi</span></div>
+          <div class="nav-button"><i class="fas fa-fire"></i><span>Teknik Etkinlikler ve Proje Ekibi</span></div>
+          <div class="nav-button"><i class="fas fa-magic"></i><span>IT Ekibi</span></div>
+          <div class="nav-button"><i class="fas fa-gem"></i><span>Dış İlişkiler ve Temsil Heyeti Ekibi</span></div>
+          <div id="nav-content-highlight"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div  class="col-lg-8 offset-3  pt-5 ">
           <div id="item-1" class="mt-5" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
             <!-- Yönetim Ekibi Başlangıç -->
-            <h2>Yönetim Ekibi</h2>
-            <div class="row d-flex justify-content-center  my-3">
+            <div class="row d-flex justify-content-center my-3">
+              <h2>Yönetim Ekibi</h2>
               <div class="col-md-4">
                 <div class="team-member">
-                  <img src="https://media.licdn.com/dms/image/D4D03AQH4dqBRhCzYrw/profile-displayphoto-shrink_400_400/0/1703624805565?e=1716422400&v=beta&t=pAeTGhrdeWSBcNC-0RRsEqFesdD3T3Y-_LTLOzZlGMs" alt="Başkan" class="member-photo">
+                  <img src="https://media.licdn.com/dms/image/D5603AQEbt_zr9tHf4A/profile-displayphoto-shrink_800_800/0/1711635795640?e=1720051200&v=beta&t=87kF_i76soYPVKRVTR4CujCQOnaVq3ZO_2s-JHGd0pk" alt="Başkan" class="member-photo">
                   <h2>Hasan Şimşek</h2>
                   <p>Yönetim Kurulu Başkanı</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
                   </div\>
                 </div>
               </div>
@@ -80,7 +98,9 @@
                   <img src="https://media.licdn.com/dms/image/D4D03AQEgQwC2ByEH2g/profile-displayphoto-shrink_400_400/0/1704373321871?e=1716422400&v=beta&t=rWREx5aIvNhpoWQdSiExAsZi15seDKqPuKcyqS6TcGA" alt="Ekip Üyesi" class="member-photo">
                   <h2>Betül Okur</h2>
                   <p>Yönetim Kurulu Başkan Yrd.</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
                   </div\>
                 </div>
               </div>
@@ -91,7 +111,9 @@
                   <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
                   <h2>İsim Soyisim</h2>
                   <p>Rolü / Görevi</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
                   </div\>
                 </div>
               </div>
@@ -100,7 +122,9 @@
                   <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
                   <h2>İsim Soyisim</h2>
                   <p>Rolü / Görevi</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
                   </div\>
                 </div>
               </div>
@@ -109,36 +133,9 @@
                   <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
                   <h2>İsim Soyisim</h2>
                   <p>Rolü / Görevi</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
-                  </div\>
-                </div>
-              </div>
-            </div>
-            <div class="row my-3">
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
-                  </div\>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
-                  </div\>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
                   </div\>
                 </div>
               </div>
@@ -149,7 +146,9 @@
                   <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
                   <h2>İsim Soyisim</h2>
                   <p>Rolü / Görevi</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
                   </div\>
                 </div>
               </div>
@@ -158,7 +157,44 @@
                   <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
                   <h2>İsim Soyisim</h2>
                   <p>Rolü / Görevi</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
+                  </div\>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-md-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
+                  </div\>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                  <h2>İsim Soyisim</h2>
+                  <p>Rolü / Görevi</p>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
                   </div\>
                 </div>
               </div>
@@ -167,11 +203,14 @@
                   <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
                   <h2>İsim Soyisim</h2>
                   <p>Rolü / Görevi</p>
-                  <a href="" target="_blank" class="linkedin-btn"></a>
+                  <div class="card-link-wrapper">
+                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                  </div>
                   </div\>
                 </div>
               </div>
             </div>
+            <hr/>
             <!-- Yönetim Ekibi Bitiş -->
             <!-- İletişim Ekibi Başlangıç -->
             
