@@ -56,11 +56,11 @@
   #nav-bar {
     position:fixed;
     left: 1vw;
-    top: 5vw;
+    top: 8vw;
     height: calc(100% - 2vw);
     background: var(--navbar-dark-primary);
     border-radius: 16px;
-    display: flex;
+    display:flexbox;
     flex-direction: column;
     color: var(--navbar-light-primary);
     font-family: Verdana, Geneva, Tahoma, sans-serif;

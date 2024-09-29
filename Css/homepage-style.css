@@ -8,7 +8,7 @@
 
 /* Carousel-img-size */
 .carousel-img {
-  height: 35em;
+  height: 45em;
   object-fit: cover;
   filter: grayscale(0.4);
 }
@@ -144,7 +144,7 @@ a.bn47 {
 }
 
 .card .card-title {
-  font-size: 20px;
+  font-size: 15px;
   display: inline;
 }
 
@@ -160,7 +160,7 @@ a.bn47 {
 
 .card .card-content {
   margin: 20px 0;
-  max-width: 85%;
+  max-width: 100%;
 }
 
 .card .card-link-wrapper {
@@ -260,106 +260,4 @@ a.bn47 {
 .underline:hover::before{
   transform: scale(1, 1);
 
-}
-/*Footer*/
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-footer{
-    background-color: #000;
-}
-.footerContainer{
-    width: 100%;
-    padding: 70px 30px 20px;
-}
-.socialIcons{
-    display: flex;
-    justify-content: center;
-}
-.socialIcons a{
-    text-decoration: none;
-    padding: 10px;
-    background-color: white;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.socialIcons a i{
-    font-size: 2em;
-    color:black;
-    opacity: 0.9;
-}
-
-/* Hover Effect on Social Media Icons */
-.socialIcons a:hover{
-    background-color:#111;
-    transition: 0.5s;
-
-}
-
-.socialIcons a:hover i{
-    color: white;
-    transition: 0.5s;
-}
-
-.footerNav{
-    margin: 30px 0;
-}
-
-.footerNav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: disc;
-}
-.footerNav ul li a{
-    color: white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transition: 0.5s;
-}
-
-.footerNav ul li a:hover{
-    opacity: 1;
-}
-.footerBottom{
-    background: color #000;
-    padding: 20px;
-    text-align: center;
-}
-.footerBottom p{
-    color: white;
-}
-.designer{
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
-    cursor: pointer;
-}
-
-@media (max-width: 700px){
-    .footerNav ul{
-        flex-direction: column;
-    }
-    .footerNav ul li{
-        width: 100%;
-        text-align: center;
-        margin: 10px;
-    }
-}
-.logo{
-    display:flex;
-    justify-content:center;
-    border-radius: 50%;
-    transition: 0.5s;
-    cursor: pointer;
-}
-.logo:hover{
-    transform: scale(0.9);
 }

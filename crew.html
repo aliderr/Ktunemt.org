@@ -1,23 +1,27 @@
 <!doctype html>
 <html lang="tr">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="Css/crew-style.css">
-    <link rel="stylesheet" href="Css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ekibimiz!</title>
-  </head>
-  <body>
-    <!-- NAVBAR -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="Css/crew-style.css">
+  <link rel="stylesheet" href="Css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <title>Ekibimiz!</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-xl navbar-light fixed-top glass">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img class="brand" src="img/Homepage/renkli.svg" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
@@ -26,14 +30,11 @@
             <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa
             </a>
           </li>
-          <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle " href="about-us.html" id="navbarDropdownMenuAbout_us" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Hakkımızda
-            </a>
-            <ul class="dropdown-menu  " aria-labelledby="navbarDropdownMenuAbout_us">
-              <li><a class="dropdown-item" href="about-us.html">Hakkımızda
-              <li><a class="dropdown-item" href="crew.html">Ekibimiz</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">Hakkımızda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crew.html">Ekibimiz </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="events.html">Etkinliklerimiz</a>
@@ -41,200 +42,202 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">İletişim</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuBlog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Bülten
-            </a>
-            <ul class="dropdown-menu   " aria-labelledby="navbarDropdownMenuBlok">
-              <li><a class="dropdown-item" href="#">Blog</a></li>
-              <li><a class="dropdown-item" href="#">Hakkımızda Haberler</a></li>
-            </ul>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-    <div class="container">
-      <!-- Aside -->
-      <div id="nav-bar">
-        <input id="nav-toggle" type="checkbox"/>
-        <div id="nav-header"><a id="nav-title" href="" target="_blank"><i class="fab "></i>Ekibimiz</a>
-          <label for="nav-toggle"><span id="nav-toggle-burger"></span></label>
-          <hr/>
-        </div>
-        <div id="nav-content">
-          <div class="nav-button" id="item-1"><i class="fas fa-palette"></i><span>Yönetim Ekibi</span></div>
-          <hr/>
-          <div class="nav-button"><i class="fas fa-images"></i><span>İletişim Ekibi</span></div>
-          <div class="nav-button"><i class="fas fa-thumbtack"></i><span>Sponsorluk Ekibi</span></div>
-          <div class="nav-button"><i class="fas fa-heart"></i><span>Süreç Yönetimi Ekibi</span></div>
-          <div class="nav-button"><i class="fas fa-chart-line"></i><span>Sosyal Medya ve Tanıtım Ekibi</span></div>
-          <div class="nav-button"><i class="fas fa-fire"></i><span>Teknik Etkinlikler ve Proje Ekibi</span></div>
-          <div class="nav-button"><i class="fas fa-magic"></i><span>IT Ekibi</span></div>
-          <div class="nav-button"><i class="fas fa-gem"></i><span>Dış İlişkiler ve Temsil Heyeti Ekibi</span></div>
-          <div id="nav-content-highlight"></div>
+
+  <br><br><br><br>
+  <div class="container mt-5">
+    <!-- Aside -->
+    <div class="row">
+      <div class="col-3 ">
+        <div id="list-example" style="padding: 100px 0;" class="list-group mt-5 sticky-top ">
+          <a class="list-group-item list-group-item-action h5" href="#list-item-1">Yönetim Kurulu</a>
+          <a class="list-group-item list-group-item-action h5" href="#list-item-2">İletişim Ekibi</a>
+          <a class="list-group-item list-group-item-action h5" href="#list-item-3">Süreç Yönetimi Ekibi</a>
+          <a class="list-group-item list-group-item-action h5" href="#list-item-4">Sosyal Medya ve Tanıtımı Ekibi</a>
+          <a class="list-group-item list-group-item-action h5" href="#list-item-4">Sponsorluk Ekibi</a>
+          <a class="list-group-item list-group-item-action h5" href="#list-item-4">Teknik Gezi ve Etkinlikler Ekibi</a>
+          <a class="list-group-item list-group-item-action h5" href="#list-item-4">Dış İlişkiler ve Temsil Heyeti</a>
+
         </div>
       </div>
-      <div class="row">
-        <div  class="col-lg-8 offset-3  pt-5 ">
-          <div id="item-1" class="mt-5" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
-            <!-- Yönetim Ekibi Başlangıç -->
-            <div class="row d-flex justify-content-center my-3">
-              <h2>Yönetim Ekibi</h2>
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="https://media.licdn.com/dms/image/D5603AQEbt_zr9tHf4A/profile-displayphoto-shrink_800_800/0/1711635795640?e=1720051200&v=beta&t=87kF_i76soYPVKRVTR4CujCQOnaVq3ZO_2s-JHGd0pk" alt="Başkan" class="member-photo">
-                  <h2>Hasan Şimşek</h2>
-                  <p>Yönetim Kurulu Başkanı</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
+      <div class="col-8 offset-1">
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example"
+          tabindex="0">
+          <div class="row d-flex justify-content-center my-3">
+            <h2 id="list-item-1">Yönetim Ekibi</h2>
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="img/Crew/NS.jfif" alt="Başkan" class="member-photo">
+                <h2>Nurullah Sarı</h2>
+                <p>Yönetim Kurulu Başkanı</p>
+                <div class="card-link-wrapper">
+                  <a href="https://www.linkedin.com/in/nurullah-sari-b34106299/" class="card-link">LinkedIn <span><i
+                        class=" fa-brands fa-linkedin fa-s"></i></span></a>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="https://media.licdn.com/dms/image/D4D03AQEgQwC2ByEH2g/profile-displayphoto-shrink_400_400/0/1704373321871?e=1716422400&v=beta&t=rWREx5aIvNhpoWQdSiExAsZi15seDKqPuKcyqS6TcGA" alt="Ekip Üyesi" class="member-photo">
-                  <h2>Betül Okur</h2>
-                  <p>Yönetim Kurulu Başkan Yrd.</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
-                </div>
+                </div\>
               </div>
             </div>
-            <div class="row my-3">
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="img/Crew/AC.jfif" alt="Ekip Üyesi" class="member-photo">
+                <h2>Abidin Ceylan</h2>
+                <p>Yönetim Kurulu Başkan Yrd.</p>
+                <div class="card-link-wrapper">
+                  <a href="https://www.linkedin.com/in/abidin-ceylan-25602229b/" class="card-link">LinkedIn <span><i
+                        class=" fa-brands fa-linkedin fa-s"></i></span></a>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
-                </div>
+                </div\>
               </div>
             </div>
-            <div class="row my-3">
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
+          </div>
+          <div class="row my-3">
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                <h2>İsim Soyisim</h2>
+                <p>Rolü / Görevi</p>
+                <div class="card-link-wrapper">
+                  <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
-                </div>
+                </div\>
               </div>
             </div>
-            <div class="row my-3">
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                <h2>İsim Soyisim</h2>
+                <p>Rolü / Görevi</p>
+                <div class="card-link-wrapper">
+                  <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
-                </div>
-              </div>
-              <div id="item-2" class="col-md-4">
-                <div class="team-member">
-                  <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
-                  <h2>İsim Soyisim</h2>
-                  <p>Rolü / Görevi</p>
-                  <div class="card-link-wrapper">
-                    <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
-                  </div>
-                  </div\>
-                </div>
+                </div\>
               </div>
             </div>
-            <hr/>
-            <!-- Yönetim Ekibi Bitiş -->
-            <!-- İletişim Ekibi Başlangıç -->
-            
-            <!-- İletişim Ekibi Bitiş -->
-            <!-- Sponsorluk Ekibi Başlangıç -->
-            
-            <!-- Sponsorluk Ekibi Bitiş -->
-            <!-- Dış İlişkiler Ve Temsil Heyeti Ekibi Başlangıç -->
-           
-            <!-- Dış İlişkiler Ve Temsil Heyeti Ekibi Bitiş -->
-            <!-- Süreç Yönetimi Ekibi Başlangıç -->
-            
-            <!-- Süreç Yönetimi Ekibi Bitiş -->
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                <h2>İsim Soyisim</h2>
+                <p>Rolü / Görevi</p>
+                <div class="card-link-wrapper">
+                  <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                </div>
+                </div\>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                <h2>İsim Soyisim</h2>
+                <p>Rolü / Görevi</p>
+                <div class="card-link-wrapper">
+                  <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                </div>
+                </div\>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                <h2>İsim Soyisim</h2>
+                <p>Rolü / Görevi</p>
+                <div class="card-link-wrapper">
+                  <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                </div>
+                </div\>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                <h2>İsim Soyisim</h2>
+                <p>Rolü / Görevi</p>
+                <div class="card-link-wrapper">
+                  <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                </div>
+                </div\>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                <h2>İsim Soyisim</h2>
+                <p>Rolü / Görevi</p>
+                <div class="card-link-wrapper">
+                  <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                </div>
+                </div\>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-member">
+                <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                <h2>İsim Soyisim</h2>
+                <p>Rolü / Görevi</p>
+                <div class="card-link-wrapper">
+                  <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                </div>
+                </div\>
+              </div>
+            </div>
+            <div id="item-2" class="col-md-4">
+              <div class="team-member">
+                <img src="indir.jpeg" alt="Ekip Üyesi" class="member-photo">
+                <h2>İsim Soyisim</h2>
+                <p>Rolü / Görevi</p>
+                <div class="card-link-wrapper">
+                  <a href="" class="card-link">LinkedIn <span><i class=" fa-brands fa-linkedin fa-s"></i></span></a>
+                </div>
+                </div\>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    
-   
-   
+    </div>
+</div>
 
-   
+   <!-- Footer -->
+   <footer>
+    <div class="logo mt-5">
+        <img width="100" height="100" src="img/Homepage/logo vector-pdf.svg">
+    </div>
+    <div class="footerContainer">
+        <div class="footerNav">
+            <ul>
+                <li><a href="about-us.html">Hakkımızda</a></li>
+                <li><a href="events.html">Etkinliklerimiz</a></li>
+                <li><a href="crew.html">Ekibimiz</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </div>
+        <div class="socialIcons">
+            <a href="https://www.linkedin.com/company/ktunemt/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ktunemt?igsh=MW44M2locGV1NGR4NA=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/ktunemt?s=21"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://youtube.com/@emtktun?si=QjbzvpTkcwdZZrHX"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy; 2024; Designed By <span class="designer">Ali Der</span>  </p>
+    </div>
+</footer>
       <script src="https://kit.fontawesome.com/24a12ef7d0.js" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    
-  </body>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
